@@ -1,0 +1,405 @@
+
+
+* {
+    font-family:"Helvetica Now Reg";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.brLine {
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    margin: 30px 0;
+}
+
+.navLeft {
+    display: flex;
+
+    .icon {
+        max-width: 60px;
+        border-radius: 30px;
+    }
+}
+
+.slideshowphone{
+    display: none;
+}
+
+
+.fadeimg {
+    max-height: 800px;
+    width: auto;
+    padding: 0 10px;
+}
+
+.home{
+    margin-bottom: 50px;
+
+    .homelogo{
+        width: 50%;
+        margin: 50px 0;
+    }
+
+    .homeText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.6;
+        font-size: 18px;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    padding: 20px 0;
+    line-height: 1.6;
+
+    .aboutHeader {
+        margin: 10px 0;
+        font-size: 20px;
+        font-family:"Helvetica Now Bold";
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .about1imgbox {
+            width: 30%;
+            max-height: 500px;
+            overflow: hidden;
+
+            .about1img {
+                max-width: 100%;
+            }
+            
+        }
+
+        .about1text {
+            max-width: 40%;
+            font-size: 18px;
+            text-align: start;
+        }
+    }
+
+    .about2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .about2imgbox {
+            width: 30%;
+            max-height: 600px;
+            overflow: hidden;
+
+            .about2img {
+                max-width: 100%;
+            }
+            
+        }
+
+        .about2text {
+            max-width: 40%;
+            min-width: 380px;
+            font-size: 20px;
+
+            .about2p{
+                text-align: left;
+
+                .quote {
+                    font-size: 28px;
+                    text-align: left;
+                    font-family:"Helvetica Now Bold"
+                }
+            }
+        }
+    }
+}
+
+.gallerypage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+
+    h2{
+        font-family:"Helvetica Now Bold";
+    }
+    
+
+    .artistHeader{
+        margin: 10px 0;
+        font-size: 30px;
+        font-family:"Helvetica Now Bold";
+    }
+
+    .artists{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    
+        .artistbox{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 50%;
+            
+            .imgbox{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                height: 450px;
+        
+                img{
+                    width: 380px;
+                }
+        
+            }
+    
+            p{
+                margin: 20px 0;
+                font-family:"Helvetica Now Bold";
+            }
+        }
+    }
+    
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    
+        .imageWrap {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 100%;
+            
+            .eachImage {
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                margin: 10px 0;
+                overflow: hidden;
+                height: 380px;
+                
+                .image {
+                    width: 380px;
+                }
+            }
+        }
+        
+    }
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    padding: 20px 0;
+    line-height: 1.6;
+    text-align: left;
+
+    .servicesHeader{
+        margin: 10px 0;
+        font-size: 20px;
+        font-family:"Helvetica Now Bold";
+    }
+
+    .servicesHeaderImg{
+        width: 40%;
+        height: auto;
+        margin: 50px;
+    }
+
+    .servicesColor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0;
+
+        .colorImgBox{
+            width: 40%;
+            overflow: hidden;
+
+            .servicesColorImg{
+                width: 95%;
+            }
+        }
+
+        .colorTextBox{
+            max-width: 40%;
+            font-size: 18px;
+            text-align: start;
+
+            h2{
+                font-family:"Helvetica Now Bold";
+                color: rgb(85, 85, 85);
+            }
+
+            .colorLabel{
+                font-family:"Helvetica Now Bold";
+            }
+        }
+    }
+
+    .servicesStyle{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin: 50px 0;
+
+
+        .stylingImgBox{
+            width: 40%;
+            overflow: hidden;
+
+            .servicesStylingImg{
+                width: 100%;
+            }
+        }
+
+        .stylingTextBox{
+            max-width: 40%;
+            font-size: 18px;
+            text-align: start;
+
+            h2{
+                color: rgb(85, 85, 85);
+                font-family:"Helvetica Now Bold";
+            }
+
+            .stylingLabel{
+                font-family:"Helvetica Now Bold";
+            }
+        }
+    }
+
+    button{
+        border-radius: 5px;
+        background: #000;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        margin-top: 20px;
+
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: #9f9f9f;
+        }
+    }
+
+    .servicesFooterImg{
+        width: 40%;
+        height: auto;
+        margin: 50px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .fadeimg {
+        max-width: 400px;
+        padding: 0;
+    }
+
+    .homelogo{
+        min-width: 70%;
+        margin: 30px 0;
+    }
+
+    .slideshowweb{
+        display: none;
+    }
+
+    .slideshowphone{
+        display: inline;
+    }
+
+    .about {
+        .about1 {
+            width: 90%;
+            .about1text {
+                min-width: 70%;
+                margin: 30px 0;
+            }
+            .about1imgbox {
+                width: 380px;
+            }
+        }
+
+        .about2 {
+            width: 90%;
+            .about2text {
+                min-width: 80%;
+                margin: 30px 0;
+
+            }
+            .about2imgbox {
+                width: 380px;
+            }
+
+            
+        }
+    
+        .map {
+            max-width: 350px;
+            max-height: 350px;
+        }
+    }
+
+    .artistbox{
+        min-width: 380px;
+    }
+
+    .servicesHeaderImg, .servicesFooterImg{
+        min-width: 90%;
+        margin: 20px 0;
+    }
+
+    .colorImgBox, .stylingImgBox{
+        height: 0px;
+        width: 0px;
+        display: hidden;
+    }
+
+    .colorTextBox, .stylingTextBox{
+        min-width: 80%;
+        margin: 10px 0;
+    }
+    
+}
+
