@@ -8,10 +8,10 @@ const Navbar = ({toggle}) => {
     <>
         <Nav>
           <div className='navLeft'>
-            <NavLink to="/">
-                <img className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
-            </NavLink>
             <NavMenu>
+              <NavLink to="/">
+                Home
+              </NavLink>
               <NavLink to="/about">
                 About
               </NavLink>
@@ -25,8 +25,8 @@ const Navbar = ({toggle}) => {
           </div>
           <Bars onClick={toggle} />
           <NavBtn>
-            <a href="https://www.instagram.com/materialtampa/" target="_blank"><IoLogoInstagram size='30' style={{color:"black"}} /></a>
-            <a href="mailto: contact@materialtampa.com"><IoMailOutline size='30' style={{color:"black"}} /></a>
+            <a href="https://www.instagram.com/lobolandscapeltd/" target="_blank"><IoLogoInstagram size='30' style={{color:"black"}} /></a>
+            <a href="mailto: lobolandscapeltdltd@gmail.com"><IoMailOutline size='30' style={{color:"black"}} /></a>
           </NavBtn>
         </Nav>
     </>

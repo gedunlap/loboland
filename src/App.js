@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Main from './Components/Main';
 import Sidebar from './Components/Sidebar';
+import Header from './Header/Header'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className='App'>
+      <Header />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Main />
