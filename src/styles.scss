@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Akshar', sans-serif;
-    ;
 }
 
 ::-webkit-scrollbar {
@@ -23,9 +22,42 @@
     height: 30vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: rgb(21,30,85);
 
+    img {
+        max-width: 30vh;
+    }
+
+    p {
+        color: #fff;
+        font-size: 25px;
+    }
+}
+
+.main {
+    padding-top: 3vh;
+}
+
+.Home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    p {
+        width: 70%;
+    }
+}
+
+.About {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    p {
+        width: 70%;
+    }
 }
 
 .navLeft {
@@ -100,7 +132,7 @@
         .about1text {
             max-width: 40%;
             font-size: 18px;
-            text-align: start;
+            text-align: flex-start;
         }
     }
 
