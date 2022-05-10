@@ -25,8 +25,8 @@ const Navbar = ({toggle}) => {
           </div>
           <Bars onClick={toggle} />
           <NavBtn>
-            <a href="https://www.instagram.com/lobolandscapeltd/" target="_blank"><IoLogoInstagram size='30' style={{color:"black"}} /></a>
-            <a href="mailto: lobolandscapeltdltd@gmail.com"><IoMailOutline size='30' style={{color:"black"}} /></a>
+            <a href="https://www.instagram.com/lobolandscapeltd/" target="_blank"><IoLogoInstagram size='30' style={{color:"white"}} /></a>
+            <a href="mailto: lobolandscapeltdltd@gmail.com"><IoMailOutline size='30' style={{color:"white"}} /></a>
           </NavBtn>
         </Nav>
     </>

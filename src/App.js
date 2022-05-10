@@ -15,9 +15,9 @@ function App() {
 
   return (
     <div className='App'>
-      <Header />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <Header />
       <Main />
     </div>
   )
