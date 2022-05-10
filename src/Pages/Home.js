@@ -2,6 +2,8 @@ import React from 'react'
 
 function Home() {
   return (
+    <>
+    <div className='blankspace' />
     <div className='Home'>
       <p>
         For over 30 years, Lobo Landscape Ltd has been exceeding expectations in the Hardscaping and Landscaping industry in and around London Ontario. Located in Middlesex County, Lobo Landscape Ltd services all your landscaping needs: garden installments, low maintenance plantings, patios, sidewalks, retaining walls, water features, woodworking, low-voltage lighting, putting greens and artificial turf, drainage and Bobcat services.
@@ -13,6 +15,7 @@ function Home() {
         Your landscaping goals begin with our team understanding your needs and desires. Honouring the bespoke nature of our work, we combine your wishes with our creative designs and quality workmanship to create the retreat of your dreams. Our work guarantees your homes curb appeal and the increase of your property’s value.
       </p>
     </div>
+    </>
   )
 }
 

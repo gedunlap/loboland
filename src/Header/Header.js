@@ -1,4 +1,6 @@
 import React from 'react'
+import { FiPhoneCall } from "react-icons/fi";
+
 
 function Header() {
   return (
@@ -8,7 +10,7 @@ function Header() {
           16 Garden Avenue P.O Box 202, Delaware Ontario Canada N0L 1E0
           <br />
           <br />
-          519 666 0296
+          <FiPhoneCall size='20' style={{color:"white", marginRight:"10px"}} />519 666 0296
         </p>
     </div>
   )

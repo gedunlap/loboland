@@ -13,7 +13,6 @@ function About() {
         <br />
         "Lobo Landscape Ltd. is a long time member of Landscape Ontario Horticultural Association, we are proud winners of numerous awards for outstanding creative gardening and landscape design as well as proud to have been awarded first place at the London Lifestyles Show and was featured on HGTV's My Parents House" Ray Davis, Former Owner
       </p>
-      
     </div>
   )
 }
